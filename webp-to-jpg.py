@@ -1,7 +1,7 @@
 import os, json
 from PIL import Image
 
-config = json.load(open('config.json'))
+config = json.load(open("config.json"))
 directory_list = config["directory_list"]
 delete_original = config["delete_original"]
 
